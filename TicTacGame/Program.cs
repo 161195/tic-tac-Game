@@ -8,8 +8,8 @@ namespace TicTacGame
         {
             // Main method
             Console.WriteLine("Welcome to The tic tac toe Game");
-            TicTacToeGame game = new TicTacToeGame();
-            game.DisplayBoardUC1();
+            TicTacToeGame game1 = new TicTacToeGame();
+            game1.createGame();
 
            
         }
