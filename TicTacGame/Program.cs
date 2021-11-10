@@ -11,7 +11,10 @@ namespace TicTacGame
             TicTacToeGame game1 = new TicTacToeGame();
             game1.createGame();
 
-           
+            Console.WriteLine("Game Begins.\nPlease select your letter");
+            game1.selectLetter();
+
+
         }
     }
 }
